@@ -14,8 +14,7 @@
         directory to put the json results file generated from the benchmark
 
 #install requirements (if needed)
-pip install -r requirements_benchmark1.txt
-pip install -r requirements_leaderboard.txt
+pip install -r requirements.txt
 
 #usage help
 python code/auen4.1.ff.py --help
