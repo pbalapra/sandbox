@@ -47,6 +47,7 @@ python ../code/auen4.1.ff.py --user pbalapra --trainfile ../data/breast.train1.c
 #check the output
 
 $cat result.json
+
 [
 	{   "unixTimeStamp": 1480392401.783029,
         "metricValue": 0.029148954898118973,
