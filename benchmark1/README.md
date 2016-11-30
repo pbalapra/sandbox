@@ -45,6 +45,7 @@ python code/auen4.1.ff.py --help
 python ../code/auen4.1.ff.py --user pbalapra --trainfile ../data/breast.train1.csv --testfile ../data/breast.test1.csv --outputfile ../results/result.json
 
 #check the output
+
 $cat result.json
 [
 	{   "unixTimeStamp": 1480392401.783029,
