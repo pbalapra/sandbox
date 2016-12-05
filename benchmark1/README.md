@@ -71,10 +71,10 @@ $cat result.json
 ]
 
 #import the results to the leaderboard database
-python leaderboard.py --benchmarkName benchmark1 --jsonFileName ../results/result.json
+python ../code/leaderboard.py --benchmarkName benchmark1 --jsonFileName ../results/result.json
 
 # query the leaderboard database for benchmark1
-python leaderboard.py --benchmarkName benchmark1
+python ../code/leaderboard.py --benchmarkName benchmark1
 
 # putting everything together in a single script
 cd jobs; sh test.sh
